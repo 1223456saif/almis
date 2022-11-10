@@ -30,7 +30,7 @@ pipeline {
 
 	stage("SRC Analysis Testing") {
             steps {
-                echo "mvn sonar:sonar -Dsonar.login=admin -Dsonar.password=root"
+                echo "mvn sonar:sonar -Dsonar.login=admin -Dsonar.password=Ahmed97356137@@ahmed"
             }
         }
 	
